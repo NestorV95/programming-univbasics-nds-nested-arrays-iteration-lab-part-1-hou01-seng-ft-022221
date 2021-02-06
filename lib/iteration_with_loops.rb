@@ -16,8 +16,9 @@ while count < array_of_arrays.length.do
   while inner_count < array_of_arrays.length do
   array_of_arrays[count][inner_count]
   if inner_count % 2 == 0
-    puts inner_count
+    p inner_count
   inner_count += 1
   end
-    
+  count += 1 
+ end   
 end
