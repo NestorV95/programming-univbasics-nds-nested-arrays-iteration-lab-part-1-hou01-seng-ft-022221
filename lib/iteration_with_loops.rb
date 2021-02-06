@@ -13,6 +13,7 @@ while count < array_of_arrays.length.do
   array_of_arrays[count]
   
   inner_count = 0 
+  
   while inner_count < array_of_arrays.length do
   array_of_arrays[count][inner_count]
   if array_of_arrays[count][inner_count] % 2 == 0
@@ -21,3 +22,4 @@ while count < array_of_arrays.length.do
   end
   count += 1 
  end   
+end
