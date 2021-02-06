@@ -17,6 +17,7 @@ while count < array_of_arrays.length.do
   while inner_count < array_of_arrays.length
   if array_of_arrays[count][inner_count] % 2 == 0
     p array_of_arrays[count[inner_count]
+  end
     inner_count += 1
   end
   count += 1 
